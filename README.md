@@ -2,10 +2,7 @@
 In this repository you will find a `.py` (**Python**) file that converts a `.mid` (**MIDI**) file to a `.ino` (*Arduino*) file that plays the song using a buzzer.
 There are also samples for **.mid** and **.ino** files for
 - __Megalovania__[^1][^2] (from Undertale) - by *Toby Fox🦊*
-- __sans.__ (from Undertale) - by *Toby Fox🦊*
-- __Driftveil City__ (from Pokémon Black & White, "Toothless Dance") - by *Hitomi Sato*
-- __Jerk it out__[^1] - by *Caesars Palace*
-- __The best song of the universe__ - by *Kcir Yeltsa*
+- There's just one for now ^_^'
 
 [^1]: These samples have two files, one for the melody, and another one for the accompainment, if you connect the **A0** pin from an Arduino to the **A1** pin of another one, and vice versa, and put both `.ino` files on these, they will sync and play the song together. I have still not added this feature to the conversion, but you can manually add it by adding the lines of the sample file to your song.
 
