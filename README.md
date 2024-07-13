@@ -4,6 +4,17 @@ There are also samples for **.mid** and **.ino** files for
 - __Megalovania__[^1][^2] (from Undertale) - by *Toby Fox🦊*
 - There's just one for now ^_^'
 
+## Credits
+I feel like I should add the credits at the beginning so you don't need to scroll to see them:
+
+### Idea
+Guillem Subirats (me!)
+
+### Helpful/Inspirationful/*Coolful* guys!
+Unai Zampalo
+
+Xavi Arol
+
 [^1]: These samples have two files, one for the melody, and another one for the accompainment, if you connect the **A0** pin from an Arduino to the **A1** pin of another one, and vice versa, and put both `.ino` files on these, they will sync and play the song together. I have still not added this feature to the conversion, but you can manually add it by adding the lines of the sample file to your song.
 
 [^2]: Wanna have a bad time? - Sans (from Undertale)
@@ -23,5 +34,10 @@ There are also samples for **.mid** and **.ino** files for
 
 > [!IMPORTANT]
 > Make sure that you have downloaded the ***Mido*** Python library. `pip install mido`
+
+> You feel... something... You're filled with determination.
+
+Thanks for visiting my first repository!
+- Guillem
 
 [^3]: Well, obviously, if you are doing the accompainment remove the, melody 🙄. It should technically be possible to connect three Arduinos, or various buzzers to the same arduino, but I don't own that much Arduinos nor buzzers. :(
