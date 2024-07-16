@@ -10,6 +10,7 @@ void setup() {
     Serial.println("'wanna have a bad time.' - Sans");
 }
 void loop() {
+  	Serial.write("s");
     delay(0);
     tone(pin, 293.6, 117.70833333333333); // D4
     delay(125.0);
