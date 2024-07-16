@@ -1,15 +1,15 @@
+ const int pin = 11; // Change pin number if necessary  
+void setup() {     Serial.begin(9600);     
+              pinMode(pin, OUTPUT);     
+              Serial.println(" -- Megalovania --");     
+              Serial.println("By Toby Fox");     
+             }
+              
+ void loop() {    
+   
+   char trigger = Serial.read();   
+   if (trigger == 's') {            
 
-
-const int pin = 11; // Change pin number if necessary
-
-void setup() {
-    Serial.begin(9600);
-    pinMode(pin, OUTPUT);
-    Serial.println(" -- Megalovania --");
-    Serial.println("By Toby Fox");
-    Serial.println("Second voice");
-}
-void loop() {
     delay(8000.0);
     tone(pin, 146.8, 123.9583333333325); // D3
     delay(250.0);
@@ -1502,4 +1502,4 @@ void loop() {
     tone(pin, 392.0, 117.70833333332575); // G4
 
     delay(1000); // Pause for 1 second
-}
+   }}
