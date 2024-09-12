@@ -3,6 +3,7 @@ In this repository you will find a `.py` (**Python**) file that converts a `.mid
 There are also samples for **.mid** and **.ino** files for
 - __Megalovania__[^1][^2] (from Undertale) - by *Toby Fox🦊*
 - There's just one for now ^_^'
+- Feel free to submit pull requests for other songs!
 
 ## Credits
 I feel like I should add the credits at the beginning so you don't need to scroll to see them:
