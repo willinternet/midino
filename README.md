@@ -1,7 +1,7 @@
 # midino
 In this repository you will find a `.py` (**Python**) file that converts a `.mid` (**MIDI**) file to a `.ino` (*Arduino*) file that plays the song using a buzzer.
 There are also samples for **.mid** and **.ino** files for
-- __Megalovania__[^1][^2] (from Undertale) - by *Toby Fox🦊*
+- __Megalovania__[^1] (from Undertale) - by *Toby Fox🦊*
 - There's just one for now ^_^'
 - Feel free to submit pull requests for other songs!
 
@@ -16,9 +16,7 @@ Unai Zampalo
 
 Xavi Arol
 
-[^1]: These samples have two files, one for the melody, and another one for the accompainment, if you connect the **A0** pin from an Arduino to the **A1** pin of another one, and vice versa, and put both `.ino` files on these, they will sync and play the song together. I have still not added this feature to the conversion, but you can manually add it by adding the lines of the sample file to your song.
-
-[^2]: Wanna have a bad time? - Sans (from Undertale)
+[^1]: Wanna have a bad time? - Sans (from Undertale)
 ## Tips & Tricks
 > [!NOTE]
 > This code plays the *highest* note at each moment, so if a note in the melody is not the highest one, it will not play.
