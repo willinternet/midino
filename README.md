@@ -41,4 +41,4 @@ Xavi Arol
 Thanks for visiting my first repository!
 - Guillem
 
-[^3]: Well, obviously, if you are doing the accompainment remove the, melody 🙄. It should technically be possible to connect three Arduinos, or various buzzers to the same arduino, but I don't own that much Arduinos nor buzzers. :(
+[^3]: Well, obviously, if you are doing the accompainment, remove the melody 🙄. It should technically be possible to connect three Arduinos, or various buzzers to the same arduino, but I don't own that much Arduinos nor buzzers. :(
